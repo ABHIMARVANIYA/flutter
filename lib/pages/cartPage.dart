@@ -28,9 +28,9 @@ class CartPage extends StatelessWidget {
               children: [
                 CartItemSamples(),
                 Container(
-                 // decoration: BoxDecoration(
+                  // decoration: BoxDecoration(
                   //  borderRadius: BorderRadius.circular(10),
-                //),
+                  //),
                   margin: EdgeInsets.symmetric(vertical: 20,horizontal: 15),
                   padding: EdgeInsets.all(10),
                   child: Row(
@@ -46,18 +46,18 @@ class CartPage extends StatelessWidget {
                         ),
                       ),
                       Padding(padding: EdgeInsets.symmetric(horizontal: 10),
-                      child: Text(
-                        "Add Coupon Code",
-                        style: TextStyle(
-                          color: Color(0xFF4C53A5),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
+                        child: Text(
+                          "Add Coupon Code",
+                          style: TextStyle(
+                            color: Color(0xFF4C53A5),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
                         ),
-                      ),
                       ),
                     ],
                   ),
-                  ),
+                ),
 
 
               ],

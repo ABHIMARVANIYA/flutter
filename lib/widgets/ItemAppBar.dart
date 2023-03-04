@@ -1,6 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:http/http.dart' as http;
 class ItemAppBar extends StatelessWidget {
   const ItemAppBar({Key? key}) : super(key: key);
 
@@ -23,7 +25,7 @@ class ItemAppBar extends StatelessWidget {
 
           ),
           Padding(
-              padding: EdgeInsets.only(left: 20),
+            padding: EdgeInsets.only(left: 20),
             child: Text(
               "product",
               style: TextStyle(
@@ -43,4 +45,7 @@ class ItemAppBar extends StatelessWidget {
       ),
     );
   }
+
 }
+
+

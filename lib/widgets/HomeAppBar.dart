@@ -1,3 +1,4 @@
+
 import 'package:badges/badges.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,13 +19,13 @@ class HomeAppBar extends StatelessWidget {
             color: Color(0xFF4C53A5),
           ),
           Padding(
-              padding: EdgeInsets.only(
-                  left: 20),
+            padding: EdgeInsets.only(
+                left: 20),
             child: Text(
               "DP Shop",
               style: TextStyle(
-                  fontSize: 23,
-                  fontWeight: FontWeight.bold,
+                fontSize: 23,
+                fontWeight: FontWeight.bold,
                 color: Color(0xFF4C53A5),
               ),
             ),

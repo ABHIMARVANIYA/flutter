@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class CartAppBar extends StatelessWidget {
@@ -21,7 +22,7 @@ class CartAppBar extends StatelessWidget {
             ),
           ),
           Padding(
-              padding: EdgeInsets.only(left: 20),
+            padding: EdgeInsets.only(left: 20),
             child: Text(
               "Cart",
               style: TextStyle(
